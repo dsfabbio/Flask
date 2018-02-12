@@ -10,9 +10,9 @@ def hello_world():
   
   
 # Atribui uma rota para acessar consulta.html
-@app.route('/consulta')
+@app.route('/home')
 def pagina_inicial():
-    return render_template('consulta.html')
+    return render_template('home.html')
 
 # Roda a aplicacao em: http://localhost:8085
 app.run(debug=True,port=8085)
