@@ -9,7 +9,7 @@ def hello_world():
 	return 'Hello World!'
   
   
-# Atribui uma rota para acessar consulta.html
+# Atribui uma rota para acessar uma página chamada home.html
 @app.route('/home')
 def pagina_inicial():
     return render_template('home.html')
